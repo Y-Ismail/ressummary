@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Results Summary</title>
+    <link rel="icon" href="../results-summary-component-main/assets/images/favicon-32x32.png">
+    
+</head>
+<body class="min-h-screen flex md:flex-row md:items-center font-Hanken justify-center">
+    <div class="card  md:shadow-md  md:flex md:flex-row rounded-3xl md:h-[400px] md:w-[770px]">
+        <section class="w-full md:h-auto rounded-b-3xl md:w-1/2 bg-gradient-to-b from-slateBlue to-royalBlue md:rounded-2xl px-8 py-6 text-center  place-content-center flex flex-col  text-white"> 
+            <h3 class="text-white font-bold">Your Result</h3>
+            <div class="w-28 h-28 circle justify-center rounded-full  bg-gradient-to-b from-Violetblue to-Persianblue flex m-auto flex-col">
+                <h1 class="text-4xl font-bold ">76</h1>
+                <p class="text-gray-400">of 100</p>
+            </div>
+            <div class="md:flex md:flex-col md:m-auto space-y-5"><b class="text-xl">Great</b>
+            <p class="px-14">You scored higher than 65% of the people who have taken this tests.</p></div>
+        </section>
+        <section class="summary md:w-1/2 md:pt-4 px-8 py-6 flex flex-col space-y-3">
+            <h3 class="title font-bold">Summary</h3>
+            <div class="rows flex flex-col mt-11  space-y-4">
+                <div class="ro flex flex-row bg-red-100 p-3 rounded-2xl">
+                    <div class="badge flex ">
+                        <img src="../results-summary-component-main/assets/images/icon-reaction.svg">
+                        <b class="text-Lightred">Reaction</b>
+                    </div>
+                        <p class="ml-auto"><b>71<span class="text-gray-400"> / 100</span></b></p>
+                </div>
+                <div class="ro flex bg-yellow-100 p-3 rounded-2xl ">
+                    <div class="badge flex">
+                        <img src="../results-summary-component-main/assets/images/icon-memory.svg">
+                        <b class="text-Orangeyellow"> Memory</b>
+                    </div>
+                        <p class="ml-auto"><b>92<span class="text-gray-400"> / 100</span></b></p>
+                </div>
+                <div class="ro flex rounded-2xl bg-cyan-100 p-3">
+                    <div class="badge flex">
+                        <img src="../results-summary-component-main/assets/images/icon-verbal.svg">
+                        <b class="text-Greenteal">Verbal</b>
+                    </div>
+                        <p class="ml-auto"><b>92<span class="text-gray-400"> / 100</span></b></p>
+                </div>
+                <div class="ro flex rounded-2xl bg-blue-100 p-3">
+                    <div class="badge flex">
+                        <img src="../results-summary-component-main/assets/images/icon-visual.svg">
+                        <b class="text-royalBlue">Visual</b>
+                    </div>
+                        <p class="ml-auto"><b>92<span class="text-gray-400"> / 100</span></b></p>
+                </div>
+            </div>
+            <button class="py-3 px-6 text-white  bg-gray-600 rounded-full hover:bg-royalBlue">Continue</button>
+        </section> 
+    </div>
+</body>
+</html>
