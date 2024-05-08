@@ -692,9 +692,9 @@ video {
   padding: 0.75rem;
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-6{
@@ -715,16 +715,6 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
 }
 
 .text-center{
@@ -803,62 +793,6 @@ video {
 
   .md\:w-1\/2{
     width: 50%;
-  }
-
-  .md\:w-60{
-    width: 15rem;
-  }
-
-  .md\:w-9{
-    width: 2.25rem;
-  }
-
-  .md\:w-96{
-    width: 24rem;
-  }
-
-  .md\:w-\[\]{
-    width: ;
-  }
-
-  .md\:w-\[1200\]{
-    width: 1200;
-  }
-
-  .md\:w-\[1200px\]{
-    width: 1200px;
-  }
-
-  .md\:w-\[1px\]{
-    width: 1px;
-  }
-
-  .md\:w-\[px\]{
-    width: px;
-  }
-
-  .md\:w-\[950px\]{
-    width: 950px;
-  }
-
-  .md\:w-\[100px\]{
-    width: 100px;
-  }
-
-  .md\:w-\[1000px\]{
-    width: 1000px;
-  }
-
-  .md\:w-\[900px\]{
-    width: 900px;
-  }
-
-  .md\:w-\[800px\]{
-    width: 800px;
-  }
-
-  .md\:w-\[7700px\]{
-    width: 7700px;
   }
 
   .md\:w-\[770px\]{
